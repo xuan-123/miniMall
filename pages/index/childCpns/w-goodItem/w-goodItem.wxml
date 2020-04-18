@@ -1,0 +1,12 @@
+<!--pages/index/childCpns/w-goodItem/w-goodItem.wxml-->
+<view class="goodItem">
+    <image src="{{item.show.img}}"></image>
+    <view class="item-info">
+      <view class="title">{{item.title}}</view>
+      <view class="info">
+          <text class="price">￥{{item.price}}</text>
+          <text class="img"></text>
+          <text class="cfav">{{item.cfav}}</text>
+      </view>
+    </view>
+</view>

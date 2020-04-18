@@ -1,0 +1,4 @@
+<!--components/w-liuxin/w-liuxin.wxml-->
+<view class="liuxin">
+    <image src="/assets/home/recommend_bg.jpg" mode="widthFix"></image>
+</view>

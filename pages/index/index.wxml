@@ -1,7 +1,16 @@
 <!--index.wxml-->
-<view class="container">
- <text>首页</text>
- <text>首页</text>
- <text>首页</text>
- 
-</view>
+<!-- 轮播 -->
+<w-swiper list="{{banners}}"></w-swiper>
+<!-- 推荐 -->
+<w-recommends recom="{{recommends}}" bind:imageload="handimageLoad"></w-recommends>
+<!-- 本周流行 -->
+<w-liuxin></w-liuxin>
+<!-- 三题数据 -->
+<w-ti title="{{['热门','新品','热销']}}" bind:tabclick="tabClick"
+  class="{{isTabFixed?'fixed':''}}" id="tab-comp"
+></w-ti>
+<w-ti title="{{['热门','新品','热销']}}" bind:tabclick="tabClick" wx:if="{{isTabFixed}}"></w-ti>
+<!-- 商品数据 -->
+<w-type type="{{goods[currentType].list}}"></w-type>
+<!-- 回到顶部 -->
+<w-backtop  wx:if="{{backToShow}}" ></w-backtop> 

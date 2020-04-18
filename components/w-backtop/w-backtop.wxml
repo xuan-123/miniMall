@@ -1,0 +1,4 @@
+<!--components/w-backtop/w-backtop.wxml-->
+<view class="backtop" bind:tap="goTop" >
+    <image src="/assets/home/top.png" ></image>
+</view>

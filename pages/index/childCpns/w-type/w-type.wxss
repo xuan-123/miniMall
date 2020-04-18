@@ -1,0 +1,12 @@
+/* pages/index/childCpns/w-type/w-type.wxss */
+.type{
+    margin-top: 10rpx;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.gooditem{
+   width: 48%;
+   margin-top: 16rpx;
+}

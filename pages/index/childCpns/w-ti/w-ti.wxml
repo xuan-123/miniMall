@@ -1,0 +1,8 @@
+<!--pages/index/childCpns/w-ti/w-ti.wxml-->
+<view class="threeTi">
+    <block wx:for="{{title}}" wx:key="{{index}}">
+        <view class="tiItem" bind:tap="tiClick" data-index="{{index}}" >
+            <view class="itTitle" class="{{ind == index?'active':''}}">{{item}}</view>  
+        </view>
+    </block>
+</view>

@@ -1,0 +1,22 @@
+/* pages/index/childCpns/w-goodItem/w-goodItem.wxss */
+.goodItem image{
+    display: block;
+    width: 100%;
+    border-radius: 10rpx;
+}
+.title{
+  margin-top: 30rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 28rpx;
+}
+.price{
+    color: #ff5777;
+    font-size: 24rpx;
+     margin-left: 50rpx;
+}
+.cfav{
+  font-size: 24rpx;
+  margin-left: 50rpx;
+}

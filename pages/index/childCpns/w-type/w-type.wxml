@@ -1,0 +1,7 @@
+<!--pages/index/childCpns/w-type/w-type.wxml-->
+
+<view class="type">
+    <block wx:for="{{type}}" wx:key="{{index}}">
+        <w-goodItem class="gooditem" item="{{item}}"></w-goodItem>
+    </block>
+</view>
